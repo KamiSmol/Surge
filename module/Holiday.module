@@ -1,0 +1,8 @@
+#!name=Panels
+#!desc=节假日预览
+
+[Panel]
+节假日提醒 = script-name=节假日提醒,update-interval=3600
+
+[Script]
+节假日提醒 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Surge/Scripts/timecard.js
